@@ -1,0 +1,13 @@
+[package]
+name = 'mokshya-raffle'
+version = '1.0.0'
+
+
+[addresses]
+raffle = "_"
+Std = "0x1"
+aptos_std = "0x1"
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'aptos-framework-v1.2.0',subdir = 'aptos-move/framework/aptos-framework' }
+AptosToken = {  git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'aptos-framework-v1.2.0', subdir = "aptos-move/framework/aptos-token" }
+AptosStdlib = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'aptos-framework-v1.2.0', subdir = "aptos-move/framework/aptos-stdlib" }
